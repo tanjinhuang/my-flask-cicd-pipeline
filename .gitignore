@@ -1,0 +1,9 @@
+# Python bytecode (auto-generated, clutters git)
+__pycache__
+*.pyc
+
+# Local Python virtual environment (contains thousands of downloaded packages)
+.venv
+
+# Pytest cache (temporary local testing data)
+.pytest_cache
