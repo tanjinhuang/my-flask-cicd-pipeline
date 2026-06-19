@@ -13,7 +13,7 @@ def test_home(client):
     response = client.get("/") # the fake test browser's root page
     assert response.status_code == 200 # check html response code
     data = response.get_json()
-    assert data["message"] == "Welcome to the Flask CI/CD Pipeline API" 
+    assert data["message"] == "Welcome to the Flask CI/CD Pipeline API. This line has been modified to test the CI/CD pipeline function in GitHub Action." 
 
 
 def test_health(client):
